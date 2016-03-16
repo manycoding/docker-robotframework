@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.3
+FROM ubuntu:14.04
 
 MAINTAINER manycoding <sobigmuchspam@gmail.com>
 
@@ -6,11 +6,14 @@ MAINTAINER manycoding <sobigmuchspam@gmail.com>
 RUN apt-get update && apt-get install -y \
     python-pip \
     --no-install-recommends \
-    && apt-get clean \
-    && apt-get autoclean \
+    && apt-get clean autoclean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Update pip
 RUN pip install -U \
     pip \
     robotframework
+
+ADD docker-entrypoint.sh /docker-entrypoint.sh
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
