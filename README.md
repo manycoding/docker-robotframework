@@ -1,5 +1,5 @@
 # robotframework
-Just the latest robot framework on ubuntu 14.04.3.
+Just the latest robot framework on ubuntu 14.04.
 
 You can use it as a base image whether you want to build your own image for firefox headless or whatnot, or simply to play around.
 
