@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER manycoding <sobigmuchspam@gmail.com>
+MAINTAINER Valery Mukhtarulin <vamukhs@gmail.com>
 
 # Usual magic to update, install & clean packages
 RUN apt-get update && apt-get install -y \
