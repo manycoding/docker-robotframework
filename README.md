@@ -1,10 +1,10 @@
-# robotframework
-Just the latest robot framework on ubuntu 14.04.
+# docker-robotframework
+[![Docker Stars](https://img.shields.io/docker/stars/_/ubuntu.svg?maxAge=2592000)](https://hub.docker.com/r/manycoding/robotframework/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?maxAge=2592000)](https://hub.docker.com/r/manycoding/robotframework/)
+[![](https://badge.imagelayers.io/manycoding/robotframework:latest.svg)](https://imagelayers.io/?images=manycoding/robotframework:latest 'Get your own badge on imagelayers.io')
 
-You can use it as a base image whether you want to build your own image for firefox headless or whatnot, or simply to play around.
+The base image built upon Alpine with the latest Robot Framework and Selenium library
 
-To drop into bash run:
+To drop into python run:
 
-    $ docker run -ti --rm manycoding/robotframework
-
-It'd nice to move from ubuntu to some cleaner image in future, such as debian.
+    $ docker run --rm -ti manycoding/robotframework python
