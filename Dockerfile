@@ -1,6 +1,8 @@
-FROM python:2.7-alpine
+FROM openjdk:jre-alpine
 
 MAINTAINER Valery Mukhtarulin <vamukhs@gmail.com>
+
+RUN apk add --update --no-cache python python-dev py-pip
 
 RUN pip install -U \
     pip \

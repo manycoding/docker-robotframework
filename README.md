@@ -5,6 +5,6 @@
 
 A small Docker image based on Alpine Linux with Robot Framework and Selenium library. The main purpose is to be a base image for environments which require Robot Framework.
 
-To drop into python run:
+To drop into the shell run:
 
-    $ docker run --rm -ti manycoding/robotframework python
+    $ docker run --rm -ti manycoding/robotframework /bin/sh
