@@ -1,6 +1,6 @@
 FROM openjdk:jre-alpine
 
-MAINTAINER Valery Mukhtarulin <vamukhs@gmail.com>
+MAINTAINER Valery M. <vamukhs@gmail.com>
 
 RUN apk add --update --no-cache python python-dev py-pip
 
