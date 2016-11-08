@@ -9,6 +9,6 @@ RUN apk add --update --no-cache \
 RUN pip install -U \
     pip \
     robotframework \
-    selenium==2.53.6 \
+    selenium==3.0.1 \
     robotframework-selenium2library \
     robotframework-ftplibrary
